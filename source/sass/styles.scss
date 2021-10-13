@@ -1,0 +1,15 @@
+@import 'mixin';
+@import 'header';
+@import 'logo';
+@import 'description';
+@import 'skills';
+@import 'variables';
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  background-color: #a7adbb;
+  margin: 0 20px;
+}

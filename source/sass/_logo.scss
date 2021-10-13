@@ -1,0 +1,17 @@
+.oso{
+  width: 80px;
+  height: 80px;
+
+  &__cabeza{
+    
+    width: 60px;
+    height: 60px;
+    background-color: $withe;
+    border-radius: 100px;
+  }
+  &__ojo{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+  }
+}

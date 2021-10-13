@@ -1,0 +1,32 @@
+{
+  "name": "melisa-portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio de Melisa izaquita",
+  "main": "index.js",
+  "scripts": {
+    "compile_pug": "gulp compilePug",
+    "compile_sass": "node-sass --output-style compressed ./source/sass/styles.scss > ./styles/styles.css",
+    "watch_sass": "node-sass --watch ./source/sass --recursive --output ./styles/ ",
+    "watch_pug": "gulp watchPug",
+    "serve": "http-server ./",
+    "dev": "concurrently \"npm run serve\" \"npm run watch_pug\" \"npm run watch_sass\""
+  },
+  "keywords": [
+    "portafolio",
+    "front-end",
+    "developer"
+  ],
+  "author": "Melisa izaquita",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "http-server": "^0.12.3",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp-install": "^1.1.0"
+  }
+}
