@@ -1,0 +1,18 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  max-width: 0 20px;
+  margin-bottom: 20px;
+  &__download{
+   margin-top: auto;
+   margin-bottom: auto;
+  }
+  &__downloads{
+    text-decoration: none;
+    font-size: 20px;
+    color: #505b67;
+    background-color: #c0c4cd;
+    padding: 8px;
+    border-radius: 50px;
+  }
+}
