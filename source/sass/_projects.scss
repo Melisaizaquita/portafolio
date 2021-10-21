@@ -1,0 +1,87 @@
+.projects{
+  &__title{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: size(2.50);
+  }
+}
+
+.slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  font-family: 'Itim', cursive;
+  &__list {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      width: 400%;
+      animation: cambio 10s infinite;
+      animation-timing-function: step-start;
+  }
+  &__component {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      position: relative;
+  }
+  &__text {
+      z-index: 1;
+      position: absolute;
+      bottom: 10px;
+      a {
+          text-decoration: none;
+          margin-left: 10px;
+          font-size: 50px;
+          cursor: pointer;
+      }
+  }
+  &__image {
+      width: 100%;
+      img {
+          width: 100%;
+          height: 400px;
+          opacity: .5;
+      }
+  }
+  @keyframes cambio {
+      0% {
+          margin-left: 0%
+      }
+      45% {
+          margin-left: 0%
+      }
+      50% {
+          margin-left: -200%
+      }
+      100% {
+          margin-left: -200%
+      }
+  }
+  @media (min-width: 768px) and (max-width:1440px) {
+      &__list {
+          width: 400%;
+      }
+      &__text {
+          a {
+              font-size: 70px;
+          }
+      }
+      &__image {
+          width: 50%;
+      }
+  }
+  @media (min-width: 1440px) {
+      &__text {
+          a {
+              margin-left: 30px;
+              font-size: 90px;
+          }
+      }
+      &__image {
+          img {
+              height: 500px;
+              opacity: .5;
+          }
+      }
+  }
+}

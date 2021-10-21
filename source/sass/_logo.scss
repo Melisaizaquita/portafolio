@@ -3,15 +3,14 @@
   height: 80px;
 
   &__cabeza{
-    
     width: 60px;
     height: 60px;
-    background-color: $withe;
+    background-color: white;
     border-radius: 100px;
   }
   &__ojo{
-    width: 20px;
-    height: 20px;
+    width: size(2.50);
+    height: size(2.50);
     background-color: black;
   }
 }
