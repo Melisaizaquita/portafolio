@@ -1,8 +1,7 @@
 .skills{
-  margin: 0 size(2.50);
-  color: #505b67;
+  margin: 0 size(4);
   &__title{
-    font-size: 30px;
+    font-size: size(3.75);
     margin-bottom: size(2.50);
     font-family: 'Nunito', sans-serif;
   }
@@ -15,13 +14,52 @@
   &__img{
     padding-right: 15px;
     img{
-      width: 80px;
-      height: 80px;
+      width: size(10);
+      height: size(10);
     }
   }
   &__paragraph{
     font-size: size(2.50);
     font-family: 'Itim', cursive;
   }
-  
+  @media($mediamin){
+    margin: 0 size(7.50) size(5);
+    &__title{
+      font-size: size(5);
+      margin-bottom: size(6.25);
+      
+    }
+    &__paragraph{
+      font-size: size(3.75);
+      
+    }
+    &__img{
+      padding-right: size(5);
+      img{
+        width: size(18);
+        height: size(18);
+      }
+    }
+  }
+  @media($medialarge){
+    &__title{
+      font-size: size(6.25);
+      margin-bottom: size(6.25);
+      
+    }
+    &__skill{
+      padding-bottom: size(5);
+    }
+    &__paragraph{
+      font-size: size(5);
+      
+    }
+    &__img{
+      padding-right: size(5);
+      img{
+        width: size(25);
+        height: size(25);
+      }
+    }
+  }
 }
