@@ -1,13 +1,13 @@
 .description{
-  margin: 0 size(2.50);
-  color: #505b67;
+  margin: 0 size(4);
   margin-bottom: size(2.50);
   &__greeting{
-    font-size: 30px;
+    font-size: size(3.75);
     margin-bottom: 10px;
     font-family: 'Itim', cursive;
   }
   &__name{
+    max-width: 90%;
     font-size: 40px;
     margin-bottom: 10px;
     font-family: 'Nunito', sans-serif;
@@ -15,5 +15,35 @@
   &__paragraph{
     font-size: size(2.50);
     font-family: 'Itim', cursive;
+  }
+  @media($mediamin){
+    margin: 0 size(7.50) size(8.75);
+    &__greeting{
+      font-size: size(5);
+      margin-bottom: 20px;
+    }
+    &__name{
+      font-size: size(6.25);
+      margin-bottom: size(3.75);
+    }
+    &__paragraph{
+      font-size: size(3.75);
+      
+    }
+  }
+  @media($medialarge){
+    margin: size(7) size(7.50) size(6);
+    &__greeting{
+      font-size: size(6.25);
+      margin-bottom: 20px;
+    }
+    &__name{
+      font-size: size(7.50);
+      margin-bottom: size(3.75);
+    }
+    &__paragraph{
+      font-size: size(5);
+      font-size: size(5);
+    }
   }
 }

@@ -1,0 +1,42 @@
+.experience{
+  margin: 0 size(4) size(4) size(4);
+  &__title{
+    font-size: size(3.75);
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+  }
+  &__sutitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  &__list{
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    list-style: none;
+  } 
+  @media($mediamin){
+    margin: 0 size(7.50) size(5);
+    &__title{
+      font-size: size(5);
+      margin-bottom: 20px;
+    }
+    &__sutitle{
+      font-size: size(3.75);
+    }
+    &__list{
+      font-size: size(3.75);
+    } 
+  }
+  @media($medialarge){
+    margin: 0 size(7.50) size(5);
+    &__title{
+      font-size: size(6.25);
+    }
+    &__sutitle{
+      font-size: size(5);
+    }
+    &__list{
+      font-size: size(5);
+    } 
+  }
+}

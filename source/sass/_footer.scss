@@ -1,0 +1,29 @@
+.footer{
+  background-color: $background-footer;
+  &__redes{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__link{
+    margin: 5px;
+  }
+  &__img{
+    width: size(3.75);
+  }
+  @media($mediamin){
+    &__img{
+      width: size(5);
+    }
+    &__link{
+      margin: 10px;
+    }
+  }
+  @media($mediamin){
+    &__img{
+      width: size(6.25);
+    }
+    &__link{
+      margin: 10px;
+    }
+  }
+} 
