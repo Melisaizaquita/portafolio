@@ -41,10 +41,11 @@
       z-index: 1;
       position: absolute;
       bottom: 10px;
+      width: 240px;
       a {
           text-decoration: none;
           margin-left: 10px;
-          font-size: 50px;
+          font-size: 30px;
           cursor: pointer;
           color: $color-text;
       }
