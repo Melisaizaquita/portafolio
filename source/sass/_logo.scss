@@ -2,6 +2,42 @@
   width: 80px;
   height: 80px;
   position: relative;
+  &__oreja-derecha{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 100px;
+    top: 14px;
+    left: -3px;
+  }
+  &__oreja-izquierda{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 100px;
+    top: 14px;
+    right: 17px;
+  }
+  &__adentro-derecha{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100px;
+    top: 7px;
+    left: 6px;
+  }
+  &__adentro-izquierda{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100px;
+    top: 7px;
+    right: 6px;
+  }
 
   &__cabeza{
     position: absolute;
@@ -79,5 +115,265 @@
     border-radius: 50%;
     top: 32px;
     right: 12px;
+  }
+  &__boca {
+    position: absolute;
+    background: black;
+    width: size(1.50);
+    height: size(1.50);
+    border-radius: 50%;
+    top: 36px;
+    right: 24px;
+  }
+  &__boca-derecha {
+    position: absolute;
+    background: white;
+    width: size(1);
+    height: size(1);
+    border-radius: 50%;
+    top: 34px;
+    right: 23px;
+  }
+
+  &__boca-izquierda  {
+    position: absolute;
+    background: white;
+    width: size(1);
+    height: size(1);
+    border-radius: 50%;
+    top: 34px;
+    left: 22px;
+  }
+  @media($mediamin){
+    width: 110px;
+    height: 110px;
+    &__oreja-derecha{
+      width: 45px;
+      height: 45px;
+      border-radius: 100px;
+      top: 14px;
+      left: -8px;
+    }
+    &__oreja-izquierda{
+      width: 45px;
+      height: 45px;
+      border-radius: 100px;
+      top: 14px;
+      right: -27px;
+    }
+    &__adentro-derecha{
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+      top: 11px;
+      left: 11px;
+    }
+    &__adentro-izquierda{
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+      top: 11px;
+      right: 10px;
+    }
+  
+    &__cabeza{
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      top: 14px;
+    }
+  
+    &__ojo-derecho{
+      width: 26px;
+      height: 26px;
+      border-radius: 100% 56% 100% 58%;
+      top: 25px;
+      left: 21px;
+    }
+  
+    &__iris-derecho{
+      width: size(1);
+      height: size(1);
+      left: 13px;
+      top: 4px;
+      border-radius: 50%;
+    }
+  
+    &__ojo-izquierda{
+      width: 26px;
+      height: 26px;
+      border-radius: 56% 100% 58% 100%;
+      top: 25px;
+      right: 18px;
+    }
+  
+    &__iris-izquierda{
+      top: 4px;
+      right: 13px;
+      width: size(1);
+      height: size(1);
+      border-radius: 50%;
+    }
+    &__nariz{
+      width: size(2.50);
+      height: 10px;
+      top: 50px;
+      left: 42px;
+      border-radius: 50%;
+      
+    }
+    &__mejilla-derecha{
+      width: 22px;
+      height: 10px;
+      border-radius: 50%;
+      top: 52px;
+      left: 16px;
+    }
+  
+    &__mejilla-izquierda {
+      width: 22px;
+      height: 10px;
+      border-radius: 50%;
+      top: 52px;
+      right: 12px;
+    }
+    &__boca {
+      width: size(2.50);
+      height: size(2.50);
+      border-radius: 50%;
+      top: 63px;
+      right: 38px;
+    }
+    &__boca-derecha {
+      width: size(2);
+      height: size(2);
+      border-radius: 50%;
+      top: 60px;
+      right: 34px;
+    }
+  
+    &__boca-izquierda  {
+      width: size(2);
+      height: size(2);;
+      border-radius: 50%;
+      top: 60px;
+      left: 38px;
+    }
+  }
+  @media($medialarge){
+    width: 150px;
+    height: 150px;
+    &__oreja-derecha{
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      top: 14px;
+      left: -3px;
+    }
+    &__oreja-izquierda{
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      top: 14px;
+      right: 8px;
+    }
+    &__adentro-derecha{
+      width: 25px;
+      height: 25px;
+      border-radius: 100px;
+      top: 11px;
+      left: 12px;
+    }
+    &__adentro-izquierda{
+      width: 25px;
+      height: 25px;
+      border-radius: 100px;
+      top: 11px;
+      right: 11px;
+    }
+  
+    &__cabeza{
+      width: 140px;
+      height: 140px;
+      border-radius: 100px;
+      top: 14px;
+    }
+  
+    &__ojo-derecho{
+      width: 40px;
+      height: 40px;
+      border-radius: 100% 56% 100% 58%;
+      top: 33px;
+      left: 21px;
+    }
+  
+    &__iris-derecho{
+      width: size(2);
+      height: size(2);
+      left: 18px;
+      top: 6px;
+      border-radius: 50%;
+    }
+  
+    &__ojo-izquierda{
+      width: 40px;
+      height: 40px;
+      border-radius: 56% 100% 58% 100%;
+      top: 33px;
+      right: 21px;
+    }
+  
+    &__iris-izquierda{
+      top: 6px;
+      right: 18px;
+      width: size(2);
+      height: size(2);
+      border-radius: 50%;
+    }
+    &__nariz{
+      width: 24px;
+      height: 13px;
+      top: 69px;
+      left: 58px;
+      border-radius: 50%;
+      
+    }
+    &__mejilla-derecha{
+      width: 27px;
+      height: 11px;
+      border-radius: 50%;
+      top: 74px;
+      left: 22px;
+    }
+  
+    &__mejilla-izquierda {
+      width: 27px;
+      height: 11px;
+      border-radius: 50%;
+      top: 74px;
+      right: 18px;
+    }
+    &__boca {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      top: 87px;
+      right: 53px;
+    }
+    &__boca-derecha {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      top: 84px;
+      right: 51px;
+    }
+  
+    &__boca-izquierda  {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      top: 84px;
+      left: 53px;
+    }
   }
 }
