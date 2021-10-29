@@ -40,8 +40,13 @@
         height: size(18);
       }
     }
+    &__content{
+      width: 300px;
+    }
   }
   @media($medialarge){
+    margin: 0 auto;
+    max-width: 900px;
     &__title{
       font-size: size(6.25);
       margin-bottom: size(6.25);
@@ -55,11 +60,20 @@
       
     }
     &__img{
-      padding-right: size(5);
+      padding-right: size(3);
       img{
         width: size(25);
         height: size(25);
       }
     }
+    &__list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    &__skill{
+      width: 450px;
+    }
+    
   }
 }

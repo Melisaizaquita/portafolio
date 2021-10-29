@@ -2,7 +2,8 @@
   background-color: $background-footer;
   &__redes{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
   &__link{
     margin: 5px;
@@ -18,7 +19,8 @@
       margin: 10px;
     }
   }
-  @media($mediamin){
+  @media($medialarge){
+    
     &__img{
       width: size(6.25);
     }

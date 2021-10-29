@@ -28,7 +28,8 @@
     } 
   }
   @media($medialarge){
-    margin: 0 size(7.50) size(5);
+    margin: 0 auto;
+    max-width: 900px;
     &__title{
       font-size: size(6.25);
     }
@@ -38,5 +39,8 @@
     &__list{
       font-size: size(5);
     } 
+    &__text{
+      margin-bottom: size(6);
+    }
   }
 }
