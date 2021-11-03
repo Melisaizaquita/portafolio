@@ -1,5 +1,5 @@
 .header {
-  margin: 0 32px 20px;
+  margin: 16px 32px 20px;
   display: flex;
   justify-content: space-between; }
   .header__download {
@@ -9,18 +9,22 @@
     font-family: 'Itim', cursive;
     text-decoration: none;
     font-size: 20px;
-    color: #c0c4cd;
+    color: #3077ec;
     background-color: #ffffff;
     padding: 8px;
-    border-radius: 50px; }
+    border-radius: 50px;
+    box-shadow: 3px 3px 8px 0px; }
   @media (min-width: 768px) {
     .header {
-      margin: 20px 60px 40px; }
+      margin-top: 40px; }
       .header__downloads {
         font-size: 30px; } }
   @media (min-width: 1024px) {
     .header {
-      margin: 56px 60px 48px; }
+      margin: 0 auto;
+      max-width: 900px;
+      margin-bottom: 60px;
+      margin-top: 40px; }
       .header__downloads {
         font-size: 30px; } }
 
@@ -35,7 +39,8 @@
     background-color: black;
     border-radius: 100px;
     top: 14px;
-    left: -3px; }
+    left: -3px;
+    box-shadow: 1px 0px 13px; }
   .oso__oreja-izquierda {
     position: absolute;
     width: 25px;
@@ -43,7 +48,8 @@
     background-color: black;
     border-radius: 100px;
     top: 14px;
-    right: 17px; }
+    right: 17px;
+    box-shadow: 1px 0px 13px; }
   .oso__adentro-derecha {
     position: absolute;
     width: 10px;
@@ -66,7 +72,8 @@
     height: 60px;
     background-color: white;
     border-radius: 100px;
-    top: 14px; }
+    top: 14px;
+    box-shadow: inset 3px 4px 11px 0px; }
   .oso__ojo-derecho {
     position: absolute;
     width: 16px;
@@ -162,7 +169,7 @@
         height: 45px;
         border-radius: 100px;
         top: 14px;
-        right: -27px; }
+        right: 2px; }
       .oso__adentro-derecha {
         width: 20px;
         height: 20px;
@@ -340,16 +347,19 @@
   .description__greeting {
     font-size: 30px;
     margin-bottom: 10px;
-    font-family: 'Itim', cursive; }
+    font-family: 'Itim', cursive;
+    color: #3077ec; }
   .description__name {
     max-width: 90%;
     font-size: 40px;
     margin-bottom: 10px;
-    font-family: 'Nunito', sans-serif; }
+    font-family: 'Nunito', sans-serif;
+    color: #3077ec; }
   .description__paragraph {
     font-size: 20px;
     font-family: 'Itim', cursive;
-    text-align: justify; }
+    text-align: justify;
+    color: #737479; }
   @media (min-width: 768px) {
     .description {
       margin: 0 60px 70px; }
@@ -381,7 +391,8 @@
   .skills__title {
     font-size: 30px;
     margin-bottom: 20px;
-    font-family: 'Nunito', sans-serif; }
+    font-family: 'Nunito', sans-serif;
+    color: #3077ec; }
   .skills__skill {
     display: flex;
     padding-bottom: 20px; }
@@ -392,7 +403,8 @@
       height: 80px; }
   .skills__paragraph {
     font-size: 20px;
-    font-family: 'Itim', cursive; }
+    font-family: 'Itim', cursive;
+    color: #737479; }
   @media (min-width: 768px) {
     .skills {
       margin: 0 60px 40px; }
@@ -436,14 +448,18 @@
   .projects__title {
     font-family: 'Nunito', sans-serif;
     font-size: 30px;
-    margin: 0 32px 20px; }
+    margin: 0 32px 20px;
+    color: #3077ec; }
   @media (min-width: 768px) {
     .projects__title {
       font-size: 40px;
       margin: 0 60px 40px; } }
   @media (min-width: 1024px) {
-    .projects__title {
-      font-size: 50px; } }
+    .projects {
+      margin: 0 auto;
+      max-width: 900px; }
+      .projects__title {
+        font-size: 50px; } }
 
 .slider {
   width: 100%;
@@ -472,7 +488,7 @@
       margin-left: 10px;
       font-size: 30px;
       cursor: pointer;
-      color: #3077ec; }
+      color: #737479; }
   .slider__image {
     width: 100%; }
     .slider__image img {
@@ -492,8 +508,11 @@
     .slider__text a {
       font-size: 60px; } }
   @media (min-width: 1024px) {
-    .slider__text a {
-      font-size: 70px; } }
+    .slider {
+      margin: 0 auto;
+      max-width: 900px; }
+      .slider__text a {
+        font-size: 70px; } }
 
 .footer {
   background-color: #65737e; }
@@ -519,16 +538,24 @@
 .experience {
   margin: 0 32px 32px 32px; }
   .experience__title {
+    color: #3077ec;
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
     margin-bottom: 10px; }
   .experience__sutitle {
     font-size: 20px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    color: #737479; }
+  .experience__subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #737479; }
   .experience__list {
     font-size: 20px;
     font-family: 'Itim', cursive;
     list-style: none; }
+  .experience__text {
+    color: #737479; }
   @media (min-width: 768px) {
     .experience {
       margin: 0 60px 40px; }
@@ -558,5 +585,4 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #c0c4cd;
-  color: #3077ec; }
+  background-color: #c0c4cd; }

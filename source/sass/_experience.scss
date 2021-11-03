@@ -1,6 +1,7 @@
 .experience{
   margin: 0 size(4) size(4) size(4);
   &__title{
+    color: $color-title;
     font-size: size(3.75);
     font-family: 'Nunito', sans-serif;
     margin-bottom: 10px;
@@ -8,12 +9,23 @@
   &__sutitle{
     font-size: 20px;
     margin-bottom: 10px;
+    color: $color-text;
   }
+
+  &__subtitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: $color-text;
+  }
+
   &__list{
     font-size: 20px;
     font-family: 'Itim', cursive;
     list-style: none;
   } 
+  &__text{
+    color: $color-text;
+  }
   @media($mediamin){
     margin: 0 size(7.50) size(5);
     &__title{
