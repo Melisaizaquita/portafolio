@@ -4,6 +4,7 @@
     font-family: 'Nunito', sans-serif;
     font-size: size(3.75);
     margin: 0 size(4) size(2.50) ;
+    color: $color-title;
   }
   @media($mediamin){
     &__title{
@@ -12,6 +13,8 @@
     }
   }
   @media($medialarge){
+    margin: 0 auto;
+    max-width: 900px;
     &__title{
       font-size: size(6.25);
     }
@@ -79,6 +82,8 @@
     }
   }
   @media($medialarge){
+    margin: 0 auto;
+    max-width: 900px;
     &__text {
       a {
         font-size: size(8.75);
