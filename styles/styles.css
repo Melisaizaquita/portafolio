@@ -14,6 +14,9 @@
     padding: 8px;
     border-radius: 50px;
     box-shadow: 3px 3px 8px 0px; }
+    .header__downloads:hover {
+      background-color: #3077ec;
+      color: #ffffff; }
   @media (min-width: 768px) {
     .header {
       margin-top: 40px; }
@@ -348,7 +351,7 @@
     font-size: 30px;
     margin-bottom: 10px;
     font-family: 'Itim', cursive;
-    color: #3077ec; }
+    color: #10aaec; }
   .description__name {
     max-width: 90%;
     font-size: 40px;
@@ -545,7 +548,7 @@
   .experience__sutitle {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #737479; }
+    color: #10aaec; }
   .experience__subtitle {
     font-size: 20px;
     margin-bottom: 10px;
