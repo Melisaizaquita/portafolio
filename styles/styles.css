@@ -446,6 +446,10 @@
       .skills__skill {
         width: 450px; } }
 
+@keyframes mover {
+  0% {
+    transform: translate(100%); } }
+
 .projects {
   margin-bottom: 18px; }
   .projects__title {
@@ -588,4 +592,4 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #c0c4cd; }
+  background-color: #e2cdd8; }
