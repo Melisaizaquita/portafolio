@@ -9,13 +9,13 @@
     font-family: 'Itim', cursive;
     text-decoration: none;
     font-size: 20px;
-    color: #3077ec;
+    color: #c27ba0;
     background-color: #ffffff;
     padding: 8px;
     border-radius: 50px;
     box-shadow: 3px 3px 8px 0px; }
     .header__downloads:hover {
-      background-color: #3077ec;
+      background-color: #c27ba0;
       color: #ffffff; }
   @media (min-width: 768px) {
     .header {
@@ -39,20 +39,18 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    background-color: black;
+    background-color: #666666;
     border-radius: 100px;
     top: 14px;
-    left: -3px;
-    box-shadow: 1px 0px 13px; }
+    left: -3px; }
   .oso__oreja-izquierda {
     position: absolute;
     width: 25px;
     height: 25px;
-    background-color: black;
+    background-color: #666666;
     border-radius: 100px;
     top: 14px;
-    right: 17px;
-    box-shadow: 1px 0px 13px; }
+    right: 17px; }
   .oso__adentro-derecha {
     position: absolute;
     width: 10px;
@@ -76,12 +74,12 @@
     background-color: white;
     border-radius: 100px;
     top: 14px;
-    box-shadow: inset 3px 4px 11px 0px; }
+    box-shadow: inset 2px 2px 10px 0px; }
   .oso__ojo-derecho {
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: black;
+    background-color: #666666;
     border-radius: 100% 56% 100% 58%;
     top: 15px;
     left: 11px; }
@@ -97,7 +95,7 @@
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: black;
+    background-color: #666666;
     border-radius: 56% 100% 58% 100%;
     top: 15px;
     right: 12px; }
@@ -110,7 +108,7 @@
     background-color: white;
     border-radius: 50%; }
   .oso__nariz {
-    background-color: black;
+    background-color: #666666;
     position: absolute;
     width: 8px;
     height: 4px;
@@ -135,7 +133,7 @@
     right: 12px; }
   .oso__boca {
     position: absolute;
-    background: black;
+    background: #666666;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -351,18 +349,18 @@
     font-size: 30px;
     margin-bottom: 10px;
     font-family: 'Itim', cursive;
-    color: #10aaec; }
+    color: #d5a6bd; }
   .description__name {
     max-width: 90%;
     font-size: 40px;
     margin-bottom: 10px;
     font-family: 'Nunito', sans-serif;
-    color: #3077ec; }
+    color: #c27ba0; }
   .description__paragraph {
     font-size: 20px;
     font-family: 'Itim', cursive;
     text-align: justify;
-    color: #737479; }
+    color: #635e5e; }
   @media (min-width: 768px) {
     .description {
       margin: 0 60px 70px; }
@@ -395,7 +393,7 @@
     font-size: 30px;
     margin-bottom: 20px;
     font-family: 'Nunito', sans-serif;
-    color: #3077ec; }
+    color: #c27ba0; }
   .skills__skill {
     display: flex;
     padding-bottom: 20px; }
@@ -407,7 +405,7 @@
   .skills__paragraph {
     font-size: 20px;
     font-family: 'Itim', cursive;
-    color: #737479; }
+    color: #635e5e; }
   @media (min-width: 768px) {
     .skills {
       margin: 0 60px 40px; }
@@ -452,7 +450,7 @@
     font-family: 'Nunito', sans-serif;
     font-size: 30px;
     margin: 0 32px 20px;
-    color: #3077ec; }
+    color: #c27ba0; }
   @media (min-width: 768px) {
     .projects__title {
       font-size: 40px;
@@ -491,7 +489,7 @@
       margin-left: 10px;
       font-size: 30px;
       cursor: pointer;
-      color: #737479; }
+      color: #635e5e; }
   .slider__image {
     width: 100%; }
     .slider__image img {
@@ -518,7 +516,7 @@
         font-size: 70px; } }
 
 .footer {
-  background-color: #65737e; }
+  background-color: #ca84a9; }
   .footer__redes {
     display: flex;
     justify-content: center;
@@ -541,24 +539,24 @@
 .experience {
   margin: 0 32px 32px 32px; }
   .experience__title {
-    color: #3077ec;
+    color: #c27ba0;
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
     margin-bottom: 10px; }
   .experience__sutitle {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #10aaec; }
+    color: #d5a6bd; }
   .experience__subtitle {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #737479; }
+    color: #635e5e; }
   .experience__list {
     font-size: 20px;
     font-family: 'Itim', cursive;
     list-style: none; }
   .experience__text {
-    color: #737479; }
+    color: #635e5e; }
   @media (min-width: 768px) {
     .experience {
       margin: 0 60px 40px; }
@@ -588,4 +586,4 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #c0c4cd; }
+  background-color: #faeaf99e; }
