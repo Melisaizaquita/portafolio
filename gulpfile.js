@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const pug = require("gulp-pug");
 const fs = require("fs");
 
+
 function compileJs() {
 	return gulp.src("source/js/*.js").pipe(uglify()).pipe(gulp.dest("build/js"));
 }
